@@ -115,13 +115,18 @@ class Circle implements IMementoCircle{
 
 
 Hex color Interface
+
 interface IColorHEX{
+
     Hex:string;
 }
 
 export default IColorHEX;
+
 RGB color Interface
+
 interface IColorRGB{
+
     Red:number;
     Green:number;
     Blue:number;
